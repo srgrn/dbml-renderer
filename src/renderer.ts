@@ -295,10 +295,13 @@ class RefRenderer {
 
   toDot(): string {
     const [tailLabel, headLabel] = refLabels[this.ref.actual.cardinality];
+    const refTableColor = !this.fromTable.table.actual.settings?.headercolor
+      ? "#29235c"
+      : this.fromTable.table.actual.settings.headercolor;
     return `${this.fromTable.selfRef()} -> ${this.toTable.selfRef()} [style=invis, weight=100, color=red]
     ${this.fromRef}:e -> ${this.toRef}:w [dir=${
       this.ref.actual.cardinality == "<>" ? "both" : "forward"
-    }, penwidth=3, color="#29235c", headlabel="${headLabel}", taillabel="${tailLabel}"]`;
+    }, penwidth=3, color="${refTableColor}", headlabel="${headLabel}", taillabel="${tailLabel}"]`;
   }
 }
 
