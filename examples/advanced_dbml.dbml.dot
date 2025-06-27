@@ -113,7 +113,7 @@ subgraph cluster_teams {
     }
       
       "users.users":f0 -> "users.sexes":f0 [style=invis, weight=100, color=red]
-    "users.users":f3:e -> "users.sexes":f1:w [dir=forward, penwidth=3, color="#29235c", headlabel="1", taillabel="*"]
+    "users.users":f3:e -> "users.sexes":f1:w [dir=forward, penwidth=3, color="#D3D3D3", headlabel="1", taillabel="*"]
 "teams_users":f0 -> "teams":f0 [style=invis, weight=100, color=red]
     "teams_users":f2:e -> "teams":f1:w [dir=forward, penwidth=3, color="#29235c", headlabel="1", taillabel="*"]
 "teams_users":f0 -> "users.users":f0 [style=invis, weight=100, color=red]

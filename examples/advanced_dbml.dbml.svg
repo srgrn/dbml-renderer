@@ -86,8 +86,8 @@
 <!-- users.users&#45;&gt;users.sexes -->
 <g id="edge2" class="edge">
 <title>users.users:e&#45;&gt;users.sexes:w</title>
-<path fill="none" stroke="#29235c" stroke-width="3" d="M972.68,-99C1065.98,-99 1058.34,-210.48 1144.34,-218.54"/>
-<polygon fill="#29235c" stroke="#29235c" stroke-width="3" points="1144.27,-222.04 1154.42,-219 1144.59,-215.05 1144.27,-222.04"/>
+<path fill="none" stroke="#d3d3d3" stroke-width="3" d="M972.68,-99C1065.98,-99 1058.34,-210.48 1144.34,-218.54"/>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" stroke-width="3" points="1144.27,-222.04 1154.42,-219 1144.59,-215.05 1144.27,-222.04"/>
 <text text-anchor="middle" x="1163.31" y="-190.2" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">1</text>
 <text text-anchor="middle" x="978.91" y="-70.2" font-family="Helvetica,sans-Serif" font-size="32.00" fill="#29235c">*</text>
 </g>
